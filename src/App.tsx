@@ -66,7 +66,7 @@ export function App() {
   return (
     <div className="relative min-h-screen font-sans antialiased selection:bg-amber-400 selection:text-black">
       {/* 1. Global Dynamic Radial Background Layer (0.2s smooth gradient swap) */}
-      <div className="fixed inset-0 z-[-1]">
+      <div className="fixed inset-0 z-0 pointer-events-none">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentTheme}
@@ -90,7 +90,7 @@ export function App() {
       />
 
       {/* 3. Full-Screen CSS Scroll-Snap Sections Container */}
-      <main className="w-full h-full">
+      <main className="relative z-10 w-full h-full">
         {MALAS.map((item) => (
           <MalaSection
             key={item.id}

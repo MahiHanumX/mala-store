@@ -16,10 +16,10 @@ export interface MalaItem {
 }
 
 export const GRADIENTS: Record<string, string> = {
-  tulsi: 'radial-gradient(circle at center, #E8F5D0 0%, #78934A 45%, #18240D 100%)',
-  rudraksha: 'radial-gradient(circle at center, #8B5A35 0%, #3A2115 50%, #100806 100%)',
-  sandalwood: 'radial-gradient(circle at center, #F4D9A6 0%, #B47A3C 45%, #3A2115 100%)',
-  sphatik: 'radial-gradient(circle at center, #F5FAFF 0%, #B8D7E8 45%, #526D7A 100%)',
+  tulsi: 'radial-gradient(circle at center, #F4FCE3 0%, #C0E862 45%, #5B8C16 100%)',
+  rudraksha: 'radial-gradient(circle at center, #FFF4EC 0%, #F5B088 45%, #C85A28 100%)',
+  sandalwood: 'radial-gradient(circle at center, #FFFBF0 0%, #F5D7A1 45%, #C88A32 100%)',
+  sphatik: 'radial-gradient(circle at center, #F0F9FF 0%, #BAE6FD 45%, #38BDF8 100%)',
 };
 
 export const THEME_COLORS: Record<
@@ -28,31 +28,31 @@ export const THEME_COLORS: Record<
 > = {
   tulsi: {
     isDark: false,
-    text: '#2A1810',
-    watermarkText: 'rgba(42, 24, 16, 0.08)',
-    accent: '#4C6B28',
-    particleColor: '#567A36',
+    text: '#2A4206',
+    watermarkText: 'rgba(42, 66, 6, 0.10)',
+    accent: '#5B8C16',
+    particleColor: '#8CBF26',
   },
   rudraksha: {
-    isDark: true,
-    text: '#FFFFFF',
-    watermarkText: 'rgba(255, 255, 255, 0.08)',
-    accent: '#E5A96A',
-    particleColor: '#D97706',
+    isDark: false,
+    text: '#4D1C08',
+    watermarkText: 'rgba(77, 28, 8, 0.10)',
+    accent: '#C85A28',
+    particleColor: '#F58A54',
   },
   sandalwood: {
     isDark: false,
-    text: '#2A1810',
-    watermarkText: 'rgba(42, 24, 16, 0.08)',
-    accent: '#8C521F',
-    particleColor: '#B47A3C',
+    text: '#4A3008',
+    watermarkText: 'rgba(74, 48, 8, 0.10)',
+    accent: '#C88A32',
+    particleColor: '#E6B055',
   },
   sphatik: {
     isDark: false,
-    text: '#2A1810',
-    watermarkText: 'rgba(42, 24, 16, 0.08)',
-    accent: '#2B5A75',
-    particleColor: '#B8D7E8',
+    text: '#0C4A6E',
+    watermarkText: 'rgba(12, 74, 110, 0.10)',
+    accent: '#0284C7',
+    particleColor: '#7DD3FC',
   },
 };
 
